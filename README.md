@@ -1,6 +1,6 @@
 # Brian Ndung'u
 
-**Software engineer · Backend systems, APIs and data products** · Kenya
+**Software engineer · Backend systems, APIs and data products** · Computer Science student at Chuka University · Kenya
 
 I build backend systems that stay honest about what they know, from REST APIs with proper
 auth to data pipelines whose output a non-engineer can trust. Most of my work is in Java
@@ -32,12 +32,12 @@ number is never shown without saying how much it can be trusted.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [DRIP e-commerce backend](https://github.com/ray100-art/DRIP---ECOMMERCE-BACKEND) | REST API for an online store with JWT authentication and role-based security | Java 17, Spring Boot 3, Spring Security, JPA, MySQL |
-| [DRIP e-commerce frontend](https://github.com/ray100-art/DRIP--ECOMMERCE-FRONTED) | Storefront with catalogue, search, wishlist, checkout and an admin view | JavaScript, HTML, CSS |
-| [DaktariAssist](https://github.com/ray100-art/DaktariAssist) | Symptom-analysis assistant that sends structured requests to an LLM | Java 21, Spring Boot 3, Groq API |
-| [School Record Management System](https://github.com/ray100-art/SchoolRecordManagementSystem) | Desktop app for student records with hashed logins, PDF reports and CSV handling | Java, JavaFX, PostgreSQL, iText, BCrypt |
-| [Park Nairobi](https://github.com/ray100-art/Park-Nairobi-Fronted) | Parking booking dashboard, containerised for deployment | JavaScript, Docker, Nginx, Netlify |
-| [Expert Diagnostic System](https://github.com/ray100-art/ExpertDiagnosticSystem) | Rule-based diagnostic expert system | Prolog |
+| [ParkNairobi](https://github.com/ray100-art/Park-Nairobi-Fronted) | Smart parking across Kenyan towns: live bay map, nearest-bay search, M-Pesa payments with status polling, sensor entry and exit events, and an admin console | JavaScript, Leaflet, OpenStreetMap, Docker, Nginx, Netlify |
+| [DRIP e-commerce backend](https://github.com/ray100-art/DRIP---ECOMMERCE-BACKEND) | REST API for an online fashion store: JWT auth, catalogue, orders, and M-Pesa STK Push checkout | Java 17, Spring Boot 3, Spring Security, JPA, MySQL, Daraja API |
+| [DRIP e-commerce frontend](https://github.com/ray100-art/DRIP--ECOMMERCE-FRONTED) | Storefront with catalogue, search, wishlist, cart, M-Pesa checkout and an admin page | JavaScript, HTML, CSS |
+| [DaktariAssist](https://github.com/ray100-art/DaktariAssist) | AI clinical second opinion for Kenyan clinicians: checks a proposed diagnosis against vitals and symptoms, and returns red flags, differentials and tests as structured JSON | Java 21, Spring Boot 3, Llama 3.3 70B via Groq |
+| [School Record Management System](https://github.com/ray100-art/SchoolRecordManagementSystem) | Desktop app for students, teachers, grades, attendance and fees, with admin and teacher roles and BCrypt logins | Java 21, JavaFX, PostgreSQL, JUnit 5 |
+| [Expert Diagnostic System](https://github.com/ray100-art/ExpertDiagnosticSystem) | Computer-troubleshooting expert system that diagnoses 11 faults and explains its reasoning | Prolog |
 
 ## Tech stack
 
@@ -45,11 +45,12 @@ number is never shown without saying how much it can be trusted.
 |---|---|
 | Languages | Java, Python, TypeScript, JavaScript, SQL, C, C++, Prolog |
 | Backend | Spring Boot (Web, Security, Data JPA), FastAPI, SQLAlchemy, Pydantic, Alembic, JWT |
-| Frontend | React, Vite, Tailwind CSS, TanStack Query, React Router, JavaFX |
+| Frontend | React, Vite, Tailwind CSS, TanStack Query, React Router, Leaflet, JavaFX |
 | Databases | PostgreSQL, MySQL, SQLite |
 | Testing | pytest, Vitest, Testing Library, Playwright, JUnit 5 |
 | Delivery | Docker, Nginx, Netlify, Git, Maven |
-| AI | LLM API integration (Groq), rule-based expert systems |
+| Integrations | M-Pesa Daraja (STK Push), Groq LLM API, OpenStreetMap |
+| AI | LLM integration with structured JSON output, rule-based expert systems |
 
 ## How I work
 
