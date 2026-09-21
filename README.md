@@ -48,6 +48,26 @@ number is never shown without saying how much it can be trusted.
 | **Desktop applications** | JavaFX line-of-business software with role-based access and a database backend |
 | **AI and machine learning** | LLM-powered decision support, prompt design with structured outputs, expert systems, and applied ML |
 
+## Core competencies
+
+**Web development**
+- Semantic HTML5, modern CSS3 (Flexbox, Grid, responsive and mobile-first layouts), JavaScript (ES6+) and TypeScript
+- Single-page apps with React, client-side routing, and server-state management
+- RESTful API design, HTTP and JSON, CORS, and API integration with the Fetch API
+- Authentication and authorization: JWT, session handling, password hashing, and role-based access
+- Web security fundamentals: input validation, XSS and SQL-injection prevention, and secrets management
+- Accessibility (WCAG, keyboard navigation, ARIA), performance, and cross-browser testing
+- Deployment with Docker, Nginx reverse proxies, and static hosting (Netlify, GitHub Pages)
+
+**Computer science foundations**
+- Data structures and algorithms: sorting, trees, searching, and complexity analysis (Big-O)
+- Object-oriented design, design patterns (MVC, DAO, dependency injection) and SOLID principles
+- Database systems: relational modelling, normalisation, SQL, transactions, and migrations
+- Software engineering: version control with Git, testing (unit, integration, end-to-end), and code review
+- Computer networks, operating systems, and client-server architecture
+- Artificial intelligence: knowledge representation, rule-based inference, and LLM application design
+- Machine learning fundamentals: supervised and unsupervised learning, and model evaluation
+
 ## Tech stack
 
 | Area | Tools |
