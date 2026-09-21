@@ -39,18 +39,28 @@ number is never shown without saying how much it can be trusted.
 | [School Record Management System](https://github.com/ray100-art/SchoolRecordManagementSystem) | Desktop app for students, teachers, grades, attendance and fees, with admin and teacher roles and BCrypt logins | Java 21, JavaFX, PostgreSQL, JUnit 5 |
 | [Expert Diagnostic System](https://github.com/ray100-art/ExpertDiagnosticSystem) | Computer-troubleshooting expert system that diagnoses 11 faults and explains its reasoning | Prolog |
 
+## What I do
+
+| Area | Focus |
+|---|---|
+| **Full-stack development** | End-to-end web products: REST APIs, relational data models, authentication, and responsive frontends |
+| **Application development** | Web, mobile and desktop apps built for real users and local needs such as mobile-money payments |
+| **Desktop applications** | JavaFX line-of-business software with role-based access and a database backend |
+| **AI and machine learning** | LLM-powered decision support, prompt design with structured outputs, expert systems, and applied ML |
+
 ## Tech stack
 
 | Area | Tools |
 |---|---|
 | Languages | Java, Python, TypeScript, JavaScript, SQL, C, C++, Prolog |
 | Backend | Spring Boot (Web, Security, Data JPA), FastAPI, SQLAlchemy, Pydantic, Alembic, JWT |
-| Frontend | React, Vite, Tailwind CSS, TanStack Query, React Router, Leaflet, JavaFX |
+| Frontend | React, Vite, Tailwind CSS, TanStack Query, React Router, Leaflet |
+| Desktop | JavaFX, FXML, ControlsFX |
 | Databases | PostgreSQL, MySQL, SQLite |
+| AI and ML | LLM integration (Groq, Llama 3.3), structured JSON outputs, rule-based expert systems |
+| Integrations | M-Pesa Daraja (STK Push), OpenStreetMap, geolocation |
 | Testing | pytest, Vitest, Testing Library, Playwright, JUnit 5 |
 | Delivery | Docker, Nginx, Netlify, Git, Maven |
-| Integrations | M-Pesa Daraja (STK Push), Groq LLM API, OpenStreetMap |
-| AI | LLM integration with structured JSON output, rule-based expert systems |
 
 ## How I work
 
@@ -60,5 +70,5 @@ number is never shown without saying how much it can be trusted.
 
 ---
 
-Open to backend, full-stack and data-product roles. The fastest way to reach me is
+Open to full-stack, backend, application-development and AI engineering roles. The fastest way to reach me is
 [email](mailto:ndungub058@gmail.com) or [WhatsApp](https://wa.me/254110908913).
