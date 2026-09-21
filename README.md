@@ -32,7 +32,7 @@ number is never shown without saying how much it can be trusted.
 
 | Project | What it is | Stack |
 |---|---|---|
-| [ParkNairobi](https://github.com/ray100-art/Park-Nairobi-Fronted) | Smart parking across Kenyan towns: live bay map, nearest-bay search, M-Pesa payments with status polling, sensor entry and exit events, and an admin console | JavaScript, Leaflet, OpenStreetMap, Docker, Nginx, Netlify |
+| [ParkNairobi](https://github.com/ray100-art/Park-Nairobi-Frontend) | Smart parking across Kenyan towns: live bay map, nearest-bay search, M-Pesa payments with status polling, sensor entry and exit events, and an admin console | JavaScript, Leaflet, OpenStreetMap, Docker, Nginx, Netlify |
 | [DRIP e-commerce backend](https://github.com/ray100-art/DRIP---ECOMMERCE-BACKEND) | REST API for an online fashion store: JWT auth, catalogue, orders, and M-Pesa STK Push checkout | Java 17, Spring Boot 3, Spring Security, JPA, MySQL, Daraja API |
 | [DRIP e-commerce frontend](https://github.com/ray100-art/DRIP--ECOMMERCE-FRONTED) | Storefront with catalogue, search, wishlist, cart, M-Pesa checkout and an admin page | JavaScript, HTML, CSS |
 | [DaktariAssist](https://github.com/ray100-art/DaktariAssist) | AI clinical second opinion for Kenyan clinicians: checks a proposed diagnosis against vitals and symptoms, and returns red flags, differentials and tests as structured JSON | Java 21, Spring Boot 3, Llama 3.3 70B via Groq |
