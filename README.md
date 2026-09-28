@@ -21,8 +21,8 @@ payment flows that survive network failures, and tests that prove it works.
 Live bay map, nearest-bay search, bookings, **M-Pesa payments with status polling**, and sensor
 entry/exit events feeding occupancy in real time, plus an admin console for operators.
 Backed by a Spring Boot API with role-based access, Flyway migrations, WebSocket updates and an
-authenticated, idempotent M-Pesa callback (backend repo private, walkthrough on request).
-[Live demo](https://ray100-art.github.io/Park-Nairobi-Frontend/)
+authenticated, idempotent M-Pesa callback.
+[Live demo](https://ray100-art.github.io/Park-Nairobi-Frontend/) · [Backend API](https://github.com/ray100-art/Park-Nairobi-Backend)
 `Java 21` `Spring Boot 3` `MySQL` `JavaScript` `Leaflet` `Docker` `Nginx`
 
 ### [DaktariAssist](https://github.com/ray100-art/DaktariAssist): AI clinical second opinion
