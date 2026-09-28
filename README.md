@@ -1,94 +1,107 @@
-# Brian Ndung'u
+# Hi, I'm Brian Ndung'u
 
-**Software engineer · Backend systems, APIs and data products** · Computer Science student at Chuka University · Kenya
+**Software Engineer · Backend, APIs & Applied AI** · Computer Science, Chuka University · Kenya 🇰🇪
 
-I build backend systems that stay honest about what they know, from REST APIs with proper
-auth to data pipelines whose output a non-engineer can trust. Most of my work is in Java
-(Spring Boot) and Python (FastAPI), with React/TypeScript on the front end. I'm currently
-building **ScoutBridge AI**, a football scouting platform that turns match data into
-evidence-backed judgement.
+I design and ship production-minded software end to end: secure REST APIs, well-modelled
+relational data, and clean frontends on top. My core stack is **Java / Spring Boot** and
+**Python / FastAPI**, with **React + TypeScript** on the client. I care about the things that
+make software trustworthy in the real world: correct data models, real authentication,
+payment flows that survive network failures, and tests that prove it works.
 
+[Portfolio](https://ray100-art.github.io/) ·
 [LinkedIn](https://www.linkedin.com/in/brian-ndung-u-7a0a31345/) ·
 [Email](mailto:ndungub058@gmail.com) ·
-[WhatsApp](https://wa.me/254110908913) ·
-[Portfolio](https://ray100-art.github.io/)
+[WhatsApp](https://wa.me/254110908913)
 
 ---
 
-## What I'm building
+## Featured work
 
-**ScoutBridge AI** — *private repository, walkthrough on request*
-A talent-intelligence platform for under-covered football leagues. It keeps every metric
-alongside its context (role, zone, phase of play, pressure, sample size, confidence), so a
-number is never shown without saying how much it can be trusted.
+### [ParkNairobi](https://github.com/ray100-art/Park-Nairobi-Frontend): smart parking for Kenyan towns
+Live bay map, nearest-bay search, bookings, **M-Pesa payments with status polling**, and sensor
+entry/exit events feeding occupancy in real time, plus an admin console for operators.
+`JavaScript` `Leaflet` `OpenStreetMap` `Docker` `Nginx` `Netlify`
 
-- **Backend:** FastAPI monolith, async SQLAlchemy 2, Pydantic v2, Alembic migrations, PostgreSQL
-- **Frontend:** React 18, TypeScript, Vite, Tailwind, TanStack Query, with a documented design system
-- **Quality:** pytest for the API and Vitest for the UI. Playwright end-to-end tests run against the
-  real API and enforce the product's honesty rules: age gating, confidence labels and calibration gates.
-- **Access:** role-based access control (scout, viewer, admin, player) with JWT auth
+### [DaktariAssist](https://github.com/ray100-art/DaktariAssist): AI clinical second opinion
+Checks a clinician's proposed diagnosis against vitals and symptoms and returns red flags,
+differentials and recommended tests as **schema-validated structured JSON** instead of free text,
+so the output is dependable enough to build on.
+`Java 21` `Spring Boot 3` `LLM integration` `Llama 3.3 70B` `Groq` `Prompt engineering`
 
-## Selected projects
+### [DRIP Commerce](https://github.com/ray100-art/DRIP---ECOMMERCE-BACKEND): e-commerce platform
+REST backend with **JWT authentication, role-based access**, catalogue, orders and
+**M-Pesa STK Push checkout** (Safaricom Daraja API), paired with a
+[storefront](https://github.com/ray100-art/DRIP--ECOMMERCE-FRONTED) featuring search, wishlist, cart and admin.
+`Java 17` `Spring Boot 3` `Spring Security` `JPA/Hibernate` `MySQL`
 
-| Project | What it is | Stack |
-|---|---|---|
-| [ParkNairobi](https://github.com/ray100-art/Park-Nairobi-Frontend) | Smart parking across Kenyan towns: live bay map, nearest-bay search, M-Pesa payments with status polling, sensor entry and exit events, and an admin console | JavaScript, Leaflet, OpenStreetMap, Docker, Nginx, Netlify |
-| [DRIP e-commerce backend](https://github.com/ray100-art/DRIP---ECOMMERCE-BACKEND) | REST API for an online fashion store: JWT auth, catalogue, orders, and M-Pesa STK Push checkout | Java 17, Spring Boot 3, Spring Security, JPA, MySQL, Daraja API |
-| [DRIP e-commerce frontend](https://github.com/ray100-art/DRIP--ECOMMERCE-FRONTED) | Storefront with catalogue, search, wishlist, cart, M-Pesa checkout and an admin page | JavaScript, HTML, CSS |
-| [DaktariAssist](https://github.com/ray100-art/DaktariAssist) | AI clinical second opinion for Kenyan clinicians: checks a proposed diagnosis against vitals and symptoms, and returns red flags, differentials and tests as structured JSON | Java 21, Spring Boot 3, Llama 3.3 70B via Groq |
-| [School Record Management System](https://github.com/ray100-art/SchoolRecordManagementSystem) | Desktop app for students, teachers, grades, attendance and fees, with admin and teacher roles and BCrypt logins | Java 21, JavaFX, PostgreSQL, JUnit 5 |
-| [Expert Diagnostic System](https://github.com/ray100-art/ExpertDiagnosticSystem) | Computer-troubleshooting expert system that diagnoses 11 faults and explains its reasoning | Prolog |
+### [School Record Management System](https://github.com/ray100-art/SchoolRecordManagementSystem)
+Desktop system for students, teachers, grades, attendance and fees, with admin and teacher roles,
+BCrypt-hashed credentials and a PostgreSQL backend.
+`Java 21` `JavaFX` `PostgreSQL` `JUnit 5`
 
-## What I do
+<details>
+<summary><b>More: algorithms and AI foundations</b></summary>
 
-| Area | Focus |
-|---|---|
-| **Full-stack development** | End-to-end web products: REST APIs, relational data models, authentication, and responsive frontends |
-| **Application development** | Web, mobile and desktop apps built for real users and local needs such as mobile-money payments |
-| **Desktop applications** | JavaFX line-of-business software with role-based access and a database backend |
-| **AI and machine learning** | LLM-powered decision support, prompt design with structured outputs, expert systems, and applied ML |
+- [Expert Diagnostic System](https://github.com/ray100-art/ExpertDiagnosticSystem): Prolog rule-based expert system that diagnoses 11 computer faults and explains its reasoning chain
+- [Tournament Sort](https://github.com/ray100-art/TournamentSortAlgorithm): O(n log n) knockout-bracket sort in C++
+- [Selection Sort](https://github.com/ray100-art/SelectionSortAlgorithm): C implementation with heap allocation and input validation
 
-## Core competencies
+</details>
 
-**Web development**
-- Semantic HTML5, modern CSS3 (Flexbox, Grid, responsive and mobile-first layouts), JavaScript (ES6+) and TypeScript
-- Single-page apps with React, client-side routing, and server-state management
-- RESTful API design, HTTP and JSON, CORS, and API integration with the Fetch API
-- Authentication and authorization: JWT, session handling, password hashing, and role-based access
-- Web security fundamentals: input validation, XSS and SQL-injection prevention, and secrets management
-- Accessibility (WCAG, keyboard navigation, ARIA), performance, and cross-browser testing
-- Deployment with Docker, Nginx reverse proxies, and static hosting (Netlify, GitHub Pages)
+---
 
-**Computer science foundations**
-- Data structures and algorithms: sorting, trees, searching, and complexity analysis (Big-O)
-- Object-oriented design, design patterns (MVC, DAO, dependency injection) and SOLID principles
-- Database systems: relational modelling, normalisation, SQL, transactions, and migrations
-- Software engineering: version control with Git, testing (unit, integration, end-to-end), and code review
-- Computer networks, operating systems, and client-server architecture
-- Artificial intelligence: knowledge representation, rule-based inference, and LLM application design
-- Machine learning fundamentals: supervised and unsupervised learning, and model evaluation
+## What I bring
+
+**Backend & API engineering**
+- RESTful API design: resource modelling, validation, pagination, consistent error contracts, OpenAPI docs
+- Authentication and authorization: JWT, password hashing (BCrypt), role-based access control
+- Payment integration: mobile-money (M-Pesa) flows, asynchronous callbacks and idempotent processing
+- Layered architecture (controller → service → repository), dependency injection, SOLID principles
+
+**Data**
+- Relational modelling and normalisation, SQL, indexing, transactions
+- Schema migrations (Alembic, JPA) and ORM use without losing sight of the SQL underneath
+
+**Applied AI**
+- LLM application design: prompt engineering, structured outputs, guardrails and failure handling
+- Knowledge representation and rule-based inference; machine-learning fundamentals and model evaluation
+
+**Quality & delivery**
+- Automated testing at every level: unit, integration and end-to-end (JUnit, pytest, Vitest, Playwright)
+- Git workflows, pull requests and code review; CI with GitHub Actions
+- Containerisation with Docker, Nginx reverse proxying, Linux, and static/cloud hosting
+
+**Professional**
+- Turning loosely defined, real-world problems (parking, clinics, schools, retail) into scoped, working software
+- Working directly with non-technical stakeholders and explaining trade-offs in plain language
+- Clear technical writing: READMEs, API documentation and design notes
+- Agile delivery: small increments, frequent feedback, and ownership from idea to deployment
+
+---
 
 ## Tech stack
 
-| Area | Tools |
+| | |
 |---|---|
-| Languages | Java, Python, TypeScript, JavaScript, SQL, C, C++, Prolog |
-| Backend | Spring Boot (Web, Security, Data JPA), FastAPI, SQLAlchemy, Pydantic, Alembic, JWT |
-| Frontend | React, Vite, Tailwind CSS, TanStack Query, React Router, Leaflet |
-| Desktop | JavaFX, FXML, ControlsFX |
-| Databases | PostgreSQL, MySQL, SQLite |
-| AI and ML | LLM integration (Groq, Llama 3.3), structured JSON outputs, rule-based expert systems |
-| Integrations | M-Pesa Daraja (STK Push), OpenStreetMap, geolocation |
-| Testing | pytest, Vitest, Testing Library, Playwright, JUnit 5 |
-| Delivery | Docker, Nginx, Netlify, Git, Maven |
-
-## How I work
-
-- **Schema first.** I get the data model right before building screens on top of it.
-- **Tests against real systems.** End-to-end tests hit the real API, not mocks.
-- **Honest interfaces.** Empty and uncertain states are designed, not hidden.
+| **Languages** | Java · Python · TypeScript · JavaScript · SQL · C · C++ · Prolog |
+| **Backend** | Spring Boot (Web, Security, Data JPA) · FastAPI · SQLAlchemy · Pydantic · Hibernate |
+| **Frontend** | React · Vite · Tailwind CSS · TanStack Query · React Router · Leaflet |
+| **Data** | PostgreSQL · MySQL · SQLite · Alembic |
+| **AI / ML** | LLM APIs (Groq, Llama) · structured outputs · expert systems |
+| **Testing** | JUnit 5 · pytest · Vitest · Testing Library · Playwright |
+| **DevOps & tools** | Docker · Nginx · GitHub Actions · Git · Maven · Linux · Netlify |
+| **Desktop** | JavaFX · FXML |
 
 ---
 
-Open to full-stack, backend, application-development and AI engineering roles. The fastest way to reach me is
-[email](mailto:ndungub058@gmail.com) or [WhatsApp](https://wa.me/254110908913).
+## How I work
+
+- **Model the data first.** A correct schema makes everything built on top of it simpler.
+- **Prove it works.** Tests run against real systems wherever possible, not only mocks.
+- **Design for failure.** Timeouts, retries, empty states and bad input are part of the feature.
+- **Leave it readable.** Code, commits and docs are written for the next engineer.
+
+---
+
+**Open to** backend, full-stack and AI engineering roles and internships.
+The fastest way to reach me is [email](mailto:ndungub058@gmail.com).
