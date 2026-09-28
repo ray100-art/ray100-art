@@ -20,16 +20,19 @@ payment flows that survive network failures, and tests that prove it works.
 ### [ParkNairobi](https://github.com/ray100-art/Park-Nairobi-Frontend): smart parking for Kenyan towns
 Live bay map, nearest-bay search, bookings, **M-Pesa payments with status polling**, and sensor
 entry/exit events feeding occupancy in real time, plus an admin console for operators.
-`JavaScript` `Leaflet` `OpenStreetMap` `Docker` `Nginx` `Netlify`
+Backed by a Spring Boot API with role-based access, Flyway migrations, WebSocket updates and an
+authenticated, idempotent M-Pesa callback (backend repo private, walkthrough on request).
+[Live demo](https://ray100-art.github.io/Park-Nairobi-Frontend/)
+`Java 21` `Spring Boot 3` `MySQL` `JavaScript` `Leaflet` `Docker` `Nginx`
 
 ### [DaktariAssist](https://github.com/ray100-art/DaktariAssist): AI clinical second opinion
 Checks a clinician's proposed diagnosis against vitals and symptoms and returns red flags,
-differentials and recommended tests as **schema-validated structured JSON** instead of free text,
+differentials and recommended tests as **structured JSON parsed into typed Java objects** instead of free text,
 so the output is dependable enough to build on.
 `Java 21` `Spring Boot 3` `LLM integration` `Llama 3.3 70B` `Groq` `Prompt engineering`
 
 ### [DRIP Commerce](https://github.com/ray100-art/DRIP---ECOMMERCE-BACKEND): e-commerce platform
-REST backend with **JWT authentication, role-based access**, catalogue, orders and
+REST backend with **JWT authentication (BCrypt + signed tokens)**, catalogue, orders and
 **M-Pesa STK Push checkout** (Safaricom Daraja API), paired with a
 [storefront](https://github.com/ray100-art/DRIP--ECOMMERCE-FRONTED) featuring search, wishlist, cart and admin.
 `Java 17` `Spring Boot 3` `Spring Security` `JPA/Hibernate` `MySQL`
