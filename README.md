@@ -1,6 +1,6 @@
 # Hi, I'm Brian Ndung'u
 
-**Software Engineer · Backend, APIs & Applied AI** · Computer Science, Chuka University · Kenya 🇰🇪
+**Software Engineer · Backend, APIs, AI & Machine Learning** · Computer Science, Chuka University · Kenya 🇰🇪
 
 I design and ship production-minded software end to end: secure REST APIs, well-modelled
 relational data, and clean frontends on top. My core stack is **Java / Spring Boot** and
@@ -62,7 +62,7 @@ BCrypt-hashed credentials and a PostgreSQL backend.
 - Relational modelling and normalisation, SQL, indexing, transactions
 - Schema migrations (Alembic, JPA) and ORM use without losing sight of the SQL underneath
 
-**Applied AI**
+**AI & Machine Learning**
 - LLM application design: prompt engineering, structured outputs, guardrails and failure handling
 - Knowledge representation and rule-based inference; machine-learning fundamentals and model evaluation
 
